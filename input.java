@@ -1,14 +1,9 @@
-import java.util.Scanner;
-public class input 
-{
-    public static void main(String args[])
-    {
+import java.util.*;
+public class input{
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-
-        System.out.println("Hello " + name + "!");
-
-        sc.close(); // close the scanner    
+        float r = sc.nextFloat();
+        float AreaOfCircle = 3.14f * r * r;
+        System.out.println("Area of circle is " + AreaOfCircle);
     }
-    
 }

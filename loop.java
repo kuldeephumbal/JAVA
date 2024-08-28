@@ -1,19 +1,31 @@
-public class loop {
-    public static void main(String args[]){
-        for(int i=1;i<=5;i++){
-            System.out.println("For loop " + i);
-        }
+// public class loop{
+//     public static void main(String args[]){
+//         for(int i=1 ; i<=4 ; i++){
+//             for(int j=1 ; j<=i ; j++){
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+// output
+// *
+// * *
+// * * *
+// * * * *
 
-        int j = 1;
-        while(j<=5){
-            System.out.println("While loop " + j);
-            j++;
-        }
-
-        int k = 1;
-        do{
-            System.out.println("Do while " + k);
-            k++;
-        }while(k<=5);    
-    }
-}
+// public class loop{
+//     public static void main(String args[]){
+//     for(int i=1 ; i<=4 ; i++){
+//         for(int j=1 ; j<=4-i+1 ; j++){
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+// output 
+// * * * *
+// * * *
+// * * 
+// *
